@@ -1,0 +1,196 @@
+/* Définition des polices personnalisées */
+
+@font-face {
+    font-family: 'DarkLarch_PERSONAL_USE';
+    src: url('DarkLarch_PERSONAL_USE.ttf');
+}
+@font-face {
+    font-family: 'policetitre';
+    src: url('policetitre.ttf');
+}
+
+/* Eléments principaux de la page */
+
+html, body,
+{
+    height: 100%;
+    margin: 0;
+}
+  
+#global
+{
+    display: flex;
+    width: auto;
+} 
+
+.liseret
+{
+    flex:1.5;
+    background-color: #E1CE9A;
+    text-align: center;
+}
+
+.page
+{
+    margin-left: 1%;
+    flex:8.5;
+}
+
+
+
+
+section
+{
+    display: flex;
+
+}
+
+article
+{
+    flex: 3;
+    text-align: justify center;
+    border:solid black;
+    border-radius: 10px;
+    margin:1%;
+    background-color: rgba(255,255,255,0.5)
+}
+
+
+/* Header */
+
+header
+{
+    background: url('bois.jpg');
+    text-align: center;
+    font-style: italic;
+    border: 10px black solid;
+    box-shadow:10px 10px 10px #AAA4A4;
+    border-radius: 30px;
+}
+
+header h1
+{
+    color: white;
+    text-align: center;
+    font-family:'policetitre';
+    font-size:7em;
+    margin: 2%;
+    padding:2%;
+}
+
+.photoCV
+{
+    float: right;
+    border:20px white inset;
+    box-shadow: 10px 10px 10px black;
+    margin-top:40px;
+    margin-right: 40px;
+}
+
+h2
+{
+    color: #DE2916;
+    font-size: 2em;
+    text-decoration: underline;
+    text-align: center;;
+
+}
+h3
+{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+h4
+{
+    color: black;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+h5
+{
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration:underline;
+}
+ul
+{
+    color: black;
+    font-size: 1.5em;
+}
+
+
+body
+{
+    background-image: url("fond.jpeg");
+    background-attachment: fixed;
+}
+
+@media screen and (max-width: 1024px)
+{
+    @font-face {
+    font-family: 'DarkLarch_PERSONAL_USE';
+    src: url('DarkLarch_PERSONAL_USE.ttf');
+}
+@font-face {
+    font-family: 'policetitre';
+    src: url('policetitre.ttf');
+}
+
+/* Eléments principaux de la page */
+
+html, body,
+{
+    height: 100%;
+    margin: 0;
+}
+  
+#global
+{
+    display: flex;
+    width: auto;
+} 
+
+.liseret
+{
+    display:none;
+}
+
+.page
+{
+    margin-left: 1%;
+}
+
+
+
+
+section
+{
+    display: flex;
+    flex-direction: column;
+    clear: both; 
+    width: 100%;
+
+}
+
+article
+{
+    display: flex;
+    text-align: justify center;
+    border:solid black;
+    border-radius: 10px;
+    margin:1%;
+    background-color: rgba(255,255,255,0.5)
+}
+
+
+
+}
+
+
+
+
+
+
